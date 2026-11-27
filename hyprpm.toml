@@ -1,0 +1,12 @@
+[repository]
+name = "brass-windows"
+authors = ["LiukRast"]
+commit_pins = []
+
+[brasswindows]
+description = "Pixel-art window corners, focus outline and floating title bars"
+authors = ["LiukRast"]
+output = "brasswindows.so"
+build = [
+    "make all",
+]
